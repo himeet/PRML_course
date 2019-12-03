@@ -1,6 +1,7 @@
 # 实现二分类的感知器算法
 
 import numpy as np
+import matplotlib.pyplot as plt
 
 
 # 感知器算法
@@ -38,7 +39,6 @@ def perceptron(w1_data, w2_data, C, w_default):
         if(error_flag == False):
             return w
         counter+=1
-
 
 # main函数
 def main():
